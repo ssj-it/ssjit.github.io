@@ -64,8 +64,8 @@ gitalk:
   clientID: d7bb03e90cfb7fbc40ec                            #生成的clientID
   clientSecret: 1d91b904044b32b244e7780f0a5c812f87f0efd9    #生成的clientSecret
   repo: ssj825658839.github.io    #仓库名称
-  owner: Sunsj    #github用户名
-  admin: Sunsj
+  owner: ssj825658839    #github用户名
+  admin: ssj825658839
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 

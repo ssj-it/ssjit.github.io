@@ -21,7 +21,7 @@ RSS: false
 # weibo_username:     qiubaiying
 #zhihu_username:     qiubaiying
 github_username:    ssj825658839
-jianshu_username:   花间提壶机智一比
+jianshu_username:   56f079d87a76
 #twitter_username:   qiubaiying
 
 
@@ -98,9 +98,6 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "简书",
-        href: "https://www.jianshu.com/u/56f079d87a76"
-    },{
         title: "博客园",
         href: "https://www.cnblogs.com/ssjifm/"
     }

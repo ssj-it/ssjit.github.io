@@ -4,7 +4,7 @@ SEOTitle: 生如夏花的博客 Blog
 header-img: img/post-bg-desk.jpg
 email: 825658839@qq.com
 description: "冰冻三尺 非一日之寒"
-keyword: "BY, BY Blog, 生如夏花的博客, sunshuaiju, 孙帅举, JAVA, Linux, Mysql"
+keyword: "Sun, Sun Blog, 生如夏花的博客, sunshuaiju, 孙帅举, JAVA, Linux, Mysql"
 url: "https://ssh825658839.github.io"          # your host, for absolute URL
 baseurl: "https://ssj825658839.github.io"      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/ssj825658839/ssj825658839.github.io.git" # you code repository
@@ -66,7 +66,7 @@ gitalk:
   repo: ssj825658839.github.io    #仓库名称
   owner: ssj825658839    #github用户名
   admin: ssj825658839
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+  distractionFreeMode: false #是否启用类似FB的阴影遮罩
 
 
 # 统计

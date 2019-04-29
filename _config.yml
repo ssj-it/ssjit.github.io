@@ -5,8 +5,8 @@ header-img: img/post-bg-desk.jpg
 email: 825658839@qq.com
 description: "冰冻三尺 非一日之寒"
 keyword: "Sun, Sun Blog, 生如夏花的博客, sunshuaiju, 孙帅举, JAVA, Linux, Mysql"
-url: "https://ssh825658839.github.io"          # your host, for absolute URL
-baseurl: "https://ssj825658839.github.io"      # for example, '/blog' if your blog hosted on 'host/blog'
+url: "https://ssj825658839.github.io"          # your host, for absolute URL 
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'  https://ssj825658839.github.io
 github_repo: "https://github.com/ssj825658839/ssj825658839.github.io.git" # you code repository
 
 # Sidebar settings
@@ -39,7 +39,7 @@ anchorjs: true                          # if you want to customize anchor. check
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
 gems: [jekyll-paginate]
-
+paginate: 5
 
 
 

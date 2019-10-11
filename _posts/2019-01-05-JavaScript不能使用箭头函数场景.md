@@ -2,12 +2,12 @@
 layout:     post
 title:      JavaScript不能使用箭头函数场景
 subtitle:   js中有时会有使用箭头函数异常情况 对此我们简单做一下分析
-date:       2019-05-16
+date:       2019-01-05
 author:    Sunsj
 header-img: img/post-bg-re-vs-ng2.jpg
 catalog: true
 tags:
-    - Linux
+    - JavaScript
 ---
 
 

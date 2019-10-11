@@ -8,10 +8,10 @@ header-img: img/post-bg-re-vs-ng2.jpg
 catalog: true
 tags:
     - java
-	- Linux
+    - Linux
 ---
 
-1.高并发服务器建议调小TCP协议的time_wait超时时间。
+1.高并发服务器建议调小TCP协议的time_wait超时时间。 
 
 ```
 $ sudo vi  /etc/sysctl.conf

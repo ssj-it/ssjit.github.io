@@ -11,7 +11,7 @@ tags:
     - Linux
 ---
 
-1.高并发服务器建议调小TCP协议的time_wait超时时间。 
+### 1.高并发服务器建议调小TCP协议的time_wait超时时间。 
 
 ```
 $ sudo vi  /etc/sysctl.conf
@@ -21,7 +21,7 @@ net.ipv4.tcp_fin_timeout = 30
 
 ```
 
-2.调大服务器所支持的最大文件句柄数（File Descriptor，简写为fd）。
+### 2.调大服务器所支持的最大文件句柄数（File Descriptor，简写为fd）。
 
 ```
 # 系统默认的是1024
@@ -33,7 +33,7 @@ open files                      (-n) 4096
 
 ```
 
-3.给JVM设置-XX:+HeapDumpOnOutOfMemoryError参数，让JVM碰到OOM场景时输出dump信息。在线上生产环境，JVM的Xms和Xmx设置一样大小的内存容量，避免在GC 后调整堆大小带来的压力。
+### 3.给JVM设置-XX:+HeapDumpOnOutOfMemoryError参数，让JVM碰到OOM场景时输出dump信息。在线上生产环境，JVM的Xms和Xmx设置一样大小的内存容量，避免在GC 后调整堆大小带来的压力。
 
 
 ```

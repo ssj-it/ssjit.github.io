@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Linux优化 - 根据阿里云java开发手册
+title:      Linux优化-根据阿里云java开发手册
 subtitle:   根据阿里云java开发手册优化linux，使得java更优运行
 date:       2019-05-11
 author:     Sunsj
@@ -8,7 +8,6 @@ header-img: img/post-bg-re-vs-ng2.jpg
 catalog: true
 tags:
     - java
-	- Linux
 ---
 
 1. 高并发服务器建议调小TCP协议的time_wait超时时间。

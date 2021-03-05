@@ -1,3 +1,14 @@
+---
+layout:     post
+title:      Shiro Quickstart
+subtitle:   Shiro Quickstart
+date:       2019-07-17
+author:    Sunsj
+header-img: img/post-bg-re-vs-ng2.jpg
+catalog: true
+tags:
+    - Java
+---
 
 > 准备配置文件 模拟用户和角色
 

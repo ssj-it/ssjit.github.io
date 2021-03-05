@@ -4,10 +4,10 @@ SEOTitle: 生如夏花的博客 Blog
 header-img: img/post-bg-desk.jpg
 email: 825658839@qq.com
 description: "冰冻三尺 非一日之寒"
-keyword: "Sun, Sun Blog, 生如夏花的博客, sunshuaiju, 孙帅举, JAVA, Linux, Mysql"
-url: "https://ssj825658839.github.io"          # your host, for absolute URL 
+keyword: "Sun, Sun Blog, 生如夏花的博客, sunshuaiju, 孙帅举, JAVA, Linux, Mysql, Python"
+url: "https://sunsjgit.github.io"          # your host, for absolute URL 
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'  https://ssj825658839.github.io
-github_repo: "https://github.com/ssj825658839/ssj825658839.github.io.git" # you code repository
+github_repo: "https://github.com/sunsjgit/sunsjgit.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -20,7 +20,7 @@ sidebar-avatar: /img/about_sj_gentle.jpg      # use absolute URL, seeing it's us
 RSS: false
 # weibo_username:     qiubaiying
 #zhihu_username:     qiubaiying
-github_username:    ssj825658839
+github_username:    sunsjgit
 jianshu_username:   56f079d87a76
 #twitter_username:   qiubaiying
 
@@ -63,7 +63,7 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: 656de4a4bd2d737c7507                            #生成的clientID
   clientSecret: 65f7f21b670102a66e75cbab6171f4adc71956f3    #生成的clientSecret
-  repo: ssj825658839.github.io    #仓库名称
+  repo: sunsjgit.github.io.git    #仓库名称
   owner: ssj825658839    #github用户名
   admin: ssj825658839
   distractionFreeMode: false #是否启用类似FB的阴影遮罩

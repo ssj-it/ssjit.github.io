@@ -32,17 +32,15 @@ goodguy = winnebago:drive:eagle5
 
 ```
 
-
-1. securityManager 装配
-
+#### 1、securityManager 装配
 
 ```lang=java
  SecurityUtils.setSecurityManager(securityManager);
 ```
 
-2. 获取Subject 主体
+#### 2、获取Subject 主体
 
-> get the currently executing user: 
+get the currently executing user: 
 
 ```lang=java
 
@@ -50,7 +48,7 @@ Subject currentUser = SecurityUtils.getSubject();
 
 ```
 
-3. 做一些操作 在shiro的session上
+#### 3、处理shiro的session
 > Do some stuff with a Session (no need for a web or EJB container!!!)
 
 ```lang=java
@@ -63,7 +61,7 @@ if (value.equals("aValue")) {
 
 ```
 
-4. 登录当前用户，以便检查角色和权限：
+#### 4、登录当前用户，以便检查角色和权限：
 > let's login the current user so we can check against roles and permissions:
 
 ```lang=java
@@ -98,7 +96,7 @@ System.out.println("currentUser.isAuthenticated():" + currentUser.isAuthenticate
 System.out.println("currentUser.getPrincipal():" + currentUser.getPrincipal()); // 输出: currentUser.getPrincipal():lonestarr
 ```
 
-5. 测试是否有某role
+#### 5、测试是否有某role
 
 > test a role:
 
@@ -111,7 +109,7 @@ if (currentUser.hasRole("schwartz")) {
 
 ```
 
-6. 测试某 permission 是否被允许
+#### 5、测试某 permission 是否被允许
 
 > test a typed permission 
 
@@ -135,7 +133,7 @@ if (currentUser.isPermitted("winnebago:drive:eagle5")) {
 
 ```
 
-7. 退出登陆
+#### 6、退出登陆
 
 ```lang=java
 

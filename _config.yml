@@ -20,8 +20,8 @@ sidebar-avatar: /img/about_sj_gentle.jpg      # use absolute URL, seeing it's us
 RSS: false
 # weibo_username:     qiubaiying
 #zhihu_username:     qiubaiying
-github_username:    sunsjgit
-jianshu_username:   56f079d87a76
+github_username: sunsjgit
+jianshu_username: 56f079d87a76
 #twitter_username:   qiubaiying
 
 
@@ -58,7 +58,7 @@ kramdown:
 # Disqus（https://disqus.com/）
 #disqus_username: shsunsj 
 
-# Gitalk
+# Gitalk  https://github.com/settings/developers
 gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: 656de4a4bd2d737c7507                            #生成的clientID

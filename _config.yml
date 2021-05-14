@@ -62,7 +62,7 @@ kramdown:
 gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: 656de4a4bd2d737c7507                            #生成的clientID
-  clientSecret: 65f7f21b670102a66e75cbab6171f4adc71956f3    #生成的clientSecret
+  clientSecret: 2a770ae900c14f32e877842f81d05396e65d1af5    #生成的clientSecret
   repo: sunsjgit.github.io   #仓库名称
   owner: sunsjgit    #github用户名
   admin: sunsjgit

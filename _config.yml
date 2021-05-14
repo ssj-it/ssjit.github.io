@@ -63,7 +63,7 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: 656de4a4bd2d737c7507                            #生成的clientID
   clientSecret: 65f7f21b670102a66e75cbab6171f4adc71956f3    #生成的clientSecret
-  repo: sunsjgit.github.io.git    #仓库名称
+  repo: sunsjgit.github.io   #仓库名称
   owner: sunsjgit    #github用户名
   admin: sunsjgit
   distractionFreeMode: false #是否启用类似FB的阴影遮罩

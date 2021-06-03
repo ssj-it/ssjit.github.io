@@ -7,7 +7,7 @@ author:    Sunsj
 header-img: img/post-bg-re-vs-ng2.jpg
 catalog: true
 tags:
-    - linux
+    - Linux
 ---
 
 由于系统需要进行安全测评,需要满足二级安全等级.需配合进行以下模块相关的检测.
